@@ -1,6 +1,5 @@
 package Air_Hockey;
 
-
 import Texture.TextureReader;
 import java.awt.*;
 import java.awt.event.*;
@@ -22,9 +21,7 @@ public class GamePlay extends AirListener implements GLEventListener, KeyListene
     private float xBVelocity = 0.5f;  // Adjust the initial velocity as needed
     private float yBVelocity = 0.5f;
 
-
     public GamePlay() {
-
     }
     private String difficulty;
 
